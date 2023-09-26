@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #222222;
+    color: black;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url(./img/jumbo.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo>img {
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu-item {
+    padding: 0 15px;
+}
+
+.log {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid, white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clicca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.sinistra {
+
+    display: flex;
+    padding-right: 100px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: white;
+    border: 6px solid, white;
+    color: black;
+    background-image: url(./img/down-long.svg);
+    background-size: 10px;
+    background-position: left;
+    background-repeat: no-repeat;
+
+
+}
+
+.destra {
+
+    display: flex;
+    padding-right: 100px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: black;
+    border: 6px solid, white;
+    color: white;
+
+
+}
+
+.acapo {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    width: 1470px;
+    height: 500px;
+
+
+}
+
+.container {
+    text-align: center;
+    color: white;
+    width: 60%;
+    min-height: 250px;
+    margin: auto;
+    display: flex;
+}
+
+.sfo {
+
+    background-color: white;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.con {
+
+    background-image: url(./img/item1.svg);
+    background-size: cover;
+    width: 80px;
+    width: 50%;
+    min-height: 350px;
+    margin: auto;
+    margin-left: 250px;
+}
+
+.co {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    min-height: 350px;
+    padding-right: 150px;
+    padding-top: 70px;
+}
+
+.sfon {
+
+    background-color: white;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cont {
+
+    min-height: 250px;
+    margin: auto;
+    margin-left: 250px;
+}
+
+.cos {
+    background-image: url("./img/item2.svg");
+    background-size: cover;
+    width: 700px;
+    min-height: 500px;
+    margin-right: 150px;
+}
+
+.back {
+    padding-top: 200px;
+    background-color: white;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sx {
+
+    background-image: url(./img/item3.svg);
+    background-size: cover;
+    width: 600px;
+    min-height: 250px;
+    margin: auto;
+    margin-left: 250px;
+
+}
+
+.dx {
+
+    width: 30%;
+    min-height: 250px;
+    margin: auto;
+    margin-right: 300px;
+}
+
+.verde {
+
+    background-color: white;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.quadrato {
+    background-color: white;
+    background-image: url(./img/item4-big.svg);
+    background-size: cover;
+    min-height: 900px;
+    padding-bottom: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bianco {
+
+    background-color: white;
+}
+
+.avventura {
+    background-image: url(./img/stars.svg);
+    padding-top: 10px;
+    background-position: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.freccia {
+
+    padding-top: 40px;
+    background-image: url(./img/down-long.svg);
+    background-color: cornflowerblue;
+    color: white;
+    padding-top: 5px;
+    margin-right: 650px;
+    margin-left: 650px;
+    border-radius: 10px;
+    background-size: 10px;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ultimo {
+    padding-top: 50px;
+    background-color: #222222;
+    display: flex;
+}
+
+
+.fine {
+    padding-left: 30px;
+    color: rgb(40, 67, 116);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.bottone {
+
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
